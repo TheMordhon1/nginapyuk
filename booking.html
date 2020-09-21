@@ -2,7 +2,7 @@
 <html lang="en">
   <!-- Head -->
   <head>
-    <title>Nginap Yuk</title>
+    <title>NginapYuk | Booking</title>
 
     <!-- Meta-Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,6 +27,13 @@
     />
     <!-- Index-Page-CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Index-Page-CSS -->
+    <link
+      rel="stylesheet"
+      href="css/jquery-ui.css"
+      type="text/css"
+      media="all"
+    />
     <!-- Animate.CSS -->
     <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
     <!-- //Custom-Stylesheet-Links -->
@@ -57,35 +64,33 @@
   <!-- Body -->
   <body>
     <!-- Header -->
-    <div class="header agileits w3layouts" id="home">
+    <div class="header agileits" id="home">
       <!-- Navbar -->
       <nav
-        class="navbar navbar-default inner-pages-navbar agileits w3layouts wow bounceInUp"
+        class="navbar navbar-default inner-pages-navbar agileits wow bounceInUp"
       >
         <div class="container">
-          <div class="navbar-header agileits w3layouts">
+          <div class="navbar-header agileits">
             <button
               type="button"
-              class="navbar-toggle agileits w3layouts collapsed"
+              class="navbar-toggle agileits collapsed"
               data-toggle="collapse"
               data-target="#navbar"
               aria-expanded="false"
             >
-              <span class="sr-only agileits w3layouts">Toggle navigation</span>
-              <span class="icon-bar agileits w3layouts"></span>
-              <span class="icon-bar agileits w3layouts"></span>
-              <span class="icon-bar agileits w3layouts"></span>
+              <span class="sr-only agileits">Toggle navigation</span>
+              <span class="icon-bar agileits"></span>
+              <span class="icon-bar agileits"></span>
+              <span class="icon-bar agileits"></span>
             </button>
-            <a class="navbar-brand agileits w3layouts" href="index.html"
-              >Tropical Resorts</a
-            >
+            <a class="navbar-brand agileits" href="index.html">NginapYuk</a>
           </div>
 
           <div
             id="navbar"
-            class="navbar-collapse agileits w3layouts navbar-right collapse"
+            class="navbar-collapse agileits navbar-right collapse"
           >
-            <ul class="nav navbar-nav agileits w3layouts">
+            <ul class="nav navbar-nav agileits">
               <li><a href="index.html">HOME</a></li>
               <li><a href="about.html">ABOUT</a></li>
               <li><a href="cuisines.html">CUISINES</a></li>
@@ -98,19 +103,19 @@
       <!-- //Navbar -->
 
       <!-- Banner -->
-      <div class="banner agileits w3layouts">
-        <img src="images/banner.jpg" alt="Agileits W3layouts" />
-        <h1 class="wow agileits w3layouts fadeInDown">BOOKING & CONTACT</h1>
+      <div class="banner agileits">
+        <img src="images/banner.jpg" alt="Agileits " />
+        <h1 class="wow agileits fadeInDown">BOOKING & CONTACT</h1>
       </div>
       <!-- //Banner -->
     </div>
     <!-- //Header -->
 
     <!-- Location -->
-    <div class="location agileits w3layouts">
+    <div class="location agileits">
       <div class="container">
         <div
-          class="col-md-6 col-sm-6 agileits w3layouts location-grids location-grids-1 wow slideInLeft"
+          class="col-md-6 col-sm-6 agileits location-grids location-grids-1 wow slideInLeft"
         >
           <h3>Where We Are</h3>
           <p>
@@ -125,9 +130,9 @@
         </div>
 
         <div
-          class="col-md-6 col-sm-6 agileits w3layouts location-grids location-grids-2 wow slideInRight"
+          class="col-md-6 col-sm-6 agileits location-grids location-grids-2 wow slideInRight"
         >
-          <img src="images/location.jpg" alt="Agileits W3layouts" />
+          <img src="images/location.jpg" alt="Agileits " />
         </div>
         <div class="clearfix"></div>
       </div>
@@ -135,16 +140,16 @@
     <!-- //Location -->
 
     <!-- Booking -->
-    <div class="reg agileits w3layouts">
+    <div class="reg agileits">
       <div class="container">
-        <div class="register agileits w3layouts">
+        <div class="register agileits">
           <h2>Book Your Resort!</h2>
 
-          <div class="place wow agileits w3layoutsslideInLeft">
-            <div class="dropdown-button agileits w3layouts">
+          <div class="place wow agileits slideInLeft">
+            <div class="dropdown-button agileits">
               <h4>Place</h4>
               <select
-                class="dropdown agileits w3layouts"
+                class="dropdown agileits"
                 tabindex="10"
                 data-settings='{"wrapperClass":"flat"}'
               >
@@ -162,12 +167,12 @@
             </div>
           </div>
 
-          <div class="members wow agileits w3layouts slideInLeft">
-            <div class="adult agileits w3layouts">
+          <div class="members wow agileits slideInLeft">
+            <div class="adult agileits">
               <h4>No. of Adults</h4>
-              <div class="dropdown-button agileits w3layouts">
+              <div class="dropdown-button agileits">
                 <select
-                  class="dropdown agileits w3layouts"
+                  class="dropdown agileits"
                   tabindex="10"
                   data-settings='{"wrapperClass":"flat"}'
                 >
@@ -181,11 +186,11 @@
               </div>
             </div>
 
-            <div class="child wow slideInLeft agileits w3layouts">
+            <div class="child wow slideInLeft agileits">
               <h4>No. of Children</h4>
-              <div class="dropdown-button agileits w3layouts">
+              <div class="dropdown-button agileits">
                 <select
-                  class="dropdown agileits w3layouts"
+                  class="dropdown agileits"
                   tabindex="10"
                   data-settings='{"wrapperClass":"flat"}'
                 >
@@ -200,11 +205,11 @@
             <div class="clearfix"></div>
           </div>
 
-          <div class="suite wow slideInLeft agileits w3layouts">
-            <div class="dropdown-button agileits w3layouts">
+          <div class="suite wow slideInLeft agileits">
+            <div class="dropdown-button agileits">
               <h4>Suite</h4>
               <select
-                class="dropdown agileits w3layouts"
+                class="dropdown agileits"
                 tabindex="10"
                 data-settings='{"wrapperClass":"flat"}'
               >
@@ -222,12 +227,12 @@
             </div>
           </div>
 
-          <div class="book-pag wow agileits w3layouts slideInLeft">
+          <div class="book-pag wow agileits slideInLeft">
             <h4>Select Date</h4>
-            <div class="book-pag-frm1 agileits w3layouts wow slideInLeft">
+            <div class="book-pag-frm1 agileits wow slideInLeft">
               <label>Check In</label>
               <input
-                class="date agileits w3layouts"
+                class="date agileits"
                 id="datepicker1"
                 type="text"
                 value="Date"
@@ -236,10 +241,10 @@
                 required=""
               />
             </div>
-            <div class="book-pag-frm2 wow agileits w3layouts slideInLeft">
+            <div class="book-pag-frm2 wow agileits slideInLeft">
               <label>Check Out</label>
               <input
-                class="date agileits w3layouts"
+                class="date agileits"
                 id="datepicker2"
                 type="text"
                 value="Date"
@@ -251,9 +256,9 @@
             <div class="clearfix"></div>
           </div>
 
-          <div class="food wow agileits w3layouts slideInLeft">
+          <div class="food wow agileits slideInLeft">
             <h4>Choose Cuisine</h4>
-            <div class="radio-btns agileits w3layouts">
+            <div class="radio-btns agileits">
               <ul>
                 <li>
                   <input
@@ -289,39 +294,36 @@
             </div>
           </div>
 
-          <div class="submit wow agileits w3layouts slideInLeft">
-            <a
-              class="popup-with-zoom-anim agileits w3layouts"
-              href="#small-dialog"
+          <div class="submit wow agileits slideInLeft">
+            <a class="popup-with-zoom-anim agileits" href="#small-dialog"
               >BOOK NOW</a
             >
           </div>
 
           <!-- Popup-Box -->
           <div id="popup">
-            <div id="small-dialog" class="mfp-hide agileits w3layouts">
-              <div class="pop_up agileits w3layouts">
-                <div class="payment-online-form-left agileits w3layouts">
+            <div id="small-dialog" class="mfp-hide agileits">
+              <div class="pop_up agileits">
+                <div class="payment-online-form-left agileits">
                   <form>
                     <h4>
-                      <span class="shipping agileits w3layouts"> </span>Customer
-                      Details
+                      <span class="shipping agileits"> </span>Customer Details
                     </h4>
-                    <ul class="agileits w3layouts">
-                      <li class="agileits w3layouts">
+                    <ul class="agileits">
+                      <li class="agileits">
                         <input
                           required=""
-                          class="text-box-dark agileits w3layouts"
+                          class="text-box-dark agileits"
                           type="text"
                           value="First Name"
                           onfocus="this.value = '';"
                           onblur="if (this.value == '') {this.value = 'First Name';}"
                         />
                       </li>
-                      <li class="agileits w3layouts">
+                      <li class="agileits">
                         <input
                           required=""
-                          class="text-box-dark agileits w3layouts"
+                          class="text-box-dark agileits"
                           type="text"
                           value="Last Name"
                           onfocus="this.value = '';"
@@ -329,21 +331,21 @@
                         />
                       </li>
                     </ul>
-                    <ul class="agileits w3layouts">
-                      <li class="agileits w3layouts">
+                    <ul class="agileits">
+                      <li class="agileits">
                         <input
                           required=""
-                          class="text-box-dark agileits w3layouts"
+                          class="text-box-dark agileits"
                           type="text"
                           value="Email"
                           onfocus="this.value = '';"
                           onblur="if (this.value == '') {this.value = 'Email';}"
                         />
                       </li>
-                      <li class="agileits w3layouts">
+                      <li class="agileits">
                         <input
                           required=""
-                          class="text-box-dark agileits w3layouts"
+                          class="text-box-dark agileits"
                           type="text"
                           value="Phone"
                           onfocus="this.value = '';"
@@ -352,56 +354,49 @@
                       </li>
                     </ul>
                     <div class="clearfix"></div>
-                    <h4 class="paymenthead agileits w3layouts">
-                      <span class="payment agileits w3layouts"></span>Payment
-                      Details
+                    <h4 class="paymenthead agileits">
+                      <span class="payment agileits"></span>Payment Details
                     </h4>
                     <div class="clearfix"></div>
-                    <ul class="payment-type agileits w3layouts">
-                      <li class="agileits w3layouts">
-                        <span class="col_checkbox agileits w3layouts">
+                    <ul class="payment-type agileits">
+                      <li class="agileits">
+                        <span class="col_checkbox agileits">
                           <input
                             id="3"
-                            class="css-checkbox1 agileits w3layouts"
+                            class="css-checkbox1 agileits"
                             type="checkbox"
                           />
-                          <label
-                            for="3"
-                            class="css-label1 agileits w3layouts"
-                          ></label>
-                          <a class="visa agileits w3layouts" href="#"></a>
+                          <label for="3" class="css-label1 agileits"></label>
+                          <a class="visa agileits" href="#"></a>
                         </span>
                       </li>
-                      <li class="agileits w3layouts">
-                        <span class="col_checkbox agileits w3layouts">
+                      <li class="agileits">
+                        <span class="col_checkbox agileits">
                           <input
                             id="4"
-                            class="css-checkbox2 agileits w3layouts"
+                            class="css-checkbox2 agileits"
                             type="checkbox"
                           />
-                          <label
-                            for="4"
-                            class="css-label2 agileits w3layouts"
-                          ></label>
-                          <a class="paypal agileits w3layouts" href="#"></a>
+                          <label for="4" class="css-label2 agileits"></label>
+                          <a class="paypal agileits" href="#"></a>
                         </span>
                       </li>
                     </ul>
-                    <ul class="agileits w3layouts">
-                      <li class="agileits w3layouts">
+                    <ul class="agileits">
+                      <li class="agileits">
                         <input
                           required=""
-                          class="text-box-dark agileits w3layouts"
+                          class="text-box-dark agileits"
                           type="text"
                           value="Card Number"
                           onfocus="this.value = '';"
                           onblur="if (this.value == '') {this.value = 'Card Number';}"
                         />
                       </li>
-                      <li class="agileits w3layouts">
+                      <li class="agileits">
                         <input
                           required=""
-                          class="text-box-dark agileits w3layouts"
+                          class="text-box-dark agileits"
                           type="text"
                           value="Name on card"
                           onfocus="this.value = '';"
@@ -409,11 +404,11 @@
                         />
                       </li>
                     </ul>
-                    <ul class="agileits w3layouts">
-                      <li class="agileits w3layouts">
+                    <ul class="agileits">
+                      <li class="agileits">
                         <input
                           required=""
-                          class="text-box-light hasDatepicker agileits w3layouts"
+                          class="text-box-light hasDatepicker agileits"
                           type="text"
                           id="datepicker"
                           value="Expiration Date"
@@ -421,10 +416,10 @@
                           onblur="if (this.value == '') {this.value = 'Expiration Date';}"
                         /><em class="pay-date"> </em>
                       </li>
-                      <li class="agileits w3layouts">
+                      <li class="agileits">
                         <input
                           required=""
-                          class="text-box-dark agileits w3layouts"
+                          class="text-box-dark agileits"
                           type="text"
                           value="Security Code"
                           onfocus="this.value = '';"
@@ -432,11 +427,11 @@
                         />
                       </li>
                     </ul>
-                    <ul class="payment-sendbtns agileits w3layouts">
-                      <li class="agileits w3layouts">
+                    <ul class="payment-sendbtns agileits">
+                      <li class="agileits">
                         <input type="reset" value="Reset" />
                       </li>
-                      <li class="agileits w3layouts">
+                      <li class="agileits">
                         <input
                           type="submit"
                           value="Process Payment"
@@ -450,11 +445,7 @@
               </div>
             </div>
           </div>
-          <button
-            title="Close (Esc)"
-            type="button"
-            class="mfp-close agileits w3layouts"
-          >
+          <button title="Close (Esc)" type="button" class="mfp-close agileits">
             ×
           </button>
           <!-- //Popup-Box -->
@@ -464,49 +455,45 @@
     <!-- //Booking -->
 
     <!-- Contact -->
-    <div class="contact agileits w3layouts">
+    <div class="contact agileits">
       <div class="container">
-        <h2 class="wow agileits w3layouts slideInLeft">
-          KEEP IN TOUCH WITH US
-        </h2>
-        <p class="contact-p wow agileits w3layouts slideInLeft">
+        <h2 class="wow agileits slideInLeft">KEEP IN TOUCH WITH US</h2>
+        <p class="contact-p wow agileits slideInLeft">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequateu fugiat nulla pariatur.
         </p>
 
-        <div class="contact-grids agileits w3layouts">
-          <div
-            class="col-md-6 col-sm-6 agileits w3layouts contact-grid contact-grid-1"
-          >
-            <div class="address wow agileits w3layouts slideInLeft">
+        <div class="contact-grids agileits">
+          <div class="col-md-6 col-sm-6 agileits contact-grid contact-grid-1">
+            <div class="address wow agileits slideInLeft">
               <h4>Address</h4>
               <address>
                 <ul>
                   <li>
                     <span
-                      class="glyphicon agileits w3layouts glyphicon-map-marker"
+                      class="glyphicon agileits glyphicon-map-marker"
                       aria-hidden="true"
                     ></span>
                     Parma Via Modena
                   </li>
                   <li>
                     <span
-                      class="glyphicon agileits w3layouts glyphicon-map-marker"
+                      class="glyphicon agileits glyphicon-map-marker"
                       aria-hidden="true"
                     ></span>
                     40019
                   </li>
                   <li>
                     <span
-                      class="glyphicon agileits w3layouts glyphicon-map-marker"
+                      class="glyphicon agileits glyphicon-map-marker"
                       aria-hidden="true"
                     ></span>
                     Sant'Agata Bolognese
                   </li>
                   <li>
                     <span
-                      class="glyphicon agileits w3layouts glyphicon-map-marker"
+                      class="glyphicon agileits glyphicon-map-marker"
                       aria-hidden="true"
                     ></span>
                     BO, Italy
@@ -514,28 +501,28 @@
                 </ul>
               </address>
             </div>
-            <div class="phone wow agileits w3layouts slideInLeft">
+            <div class="phone wow agileits slideInLeft">
               <h4>Phone</h4>
               <p>
                 <span
-                  class="glyphicon agileits w3layouts glyphicon-earphone"
+                  class="glyphicon agileits glyphicon-earphone"
                   aria-hidden="true"
                 ></span>
                 +1 (734) 123-4567
               </p>
               <p>
                 <span
-                  class="glyphicon agileits w3layouts glyphicon-earphone"
+                  class="glyphicon agileits glyphicon-earphone"
                   aria-hidden="true"
                 ></span>
                 +1 (739) 648-7114
               </p>
             </div>
-            <div class="email wow agileits w3layouts slideInLeft">
+            <div class="email wow agileits slideInLeft">
               <h4>Email</h4>
               <p>
                 <span
-                  class="glyphicon agileits w3layouts glyphicon-envelope"
+                  class="glyphicon agileits glyphicon-envelope"
                   aria-hidden="true"
                 ></span>
                 <a href="mailto:mail@example.com"> info@example.com</a>
@@ -545,32 +532,32 @@
           </div>
 
           <div
-            class="col-md-6 col-sm-6 agileits w3layouts contact-grid contact-grid-2 wow slideInLeft"
+            class="col-md-6 col-sm-6 agileits contact-grid contact-grid-2 wow slideInLeft"
           >
             <form action="#" method="post">
               <input
                 type="text"
-                class="text wow agileits w3layouts slideInLeft"
+                class="text wow agileits slideInLeft"
                 name="Name"
                 placeholder="Name"
                 required=""
               />
               <input
                 type="text"
-                class="text wow agileits w3layouts slideInLeft"
+                class="text wow agileits slideInLeft"
                 name="Email"
                 placeholder="Email"
                 required=""
               />
               <textarea
                 name="Message"
-                class="wow agileits w3layouts slideInLeft"
+                class="wow agileits slideInLeft"
                 placeholder="Message"
                 required=""
               ></textarea>
               <input
                 type="submit"
-                class="more_btn wow agileits w3layouts slideInLeft"
+                class="more_btn wow agileits slideInLeft"
                 value="Send Message"
               />
             </form>
@@ -582,59 +569,59 @@
     <!-- //Contact -->
 
     <!-- Map-iFrame -->
-    <div class="map wow agileits w3layouts slideInUp" id="map">
-      <div class="map-hover agileits w3layouts">
+    <div class="map wow agileits slideInUp" id="map">
+      <div class="map-hover agileits">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22702.22744502486!2d11.113366067229226!3d44.662878362361056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fc3eca9065c15%3A0x12ec8a03aadae866!2s40019+Sant&#39;Agata+Bolognese+BO%2C+Italy!5e0!3m2!1sen!2sin!4v1451281303075"
           allowfullscreen
         ></iframe>
-        <div class="map-hover-1 agileits w3layouts"></div>
+        <div class="map-hover-1 agileits"></div>
       </div>
     </div>
     <!-- //Map-iFrame -->
 
     <!-- Footer -->
-    <div class="footer agileits w3layouts">
+    <div class="footer agileits">
       <div class="container">
-        <div class="col-md-6 col-sm-6 agileits w3layouts footer-grids">
+        <div class="col-md-6 col-sm-6 agileits footer-grids">
           <div
-            class="col-md-4 col-sm-4 agileits w3layouts footer-grid footer-grid-1 wow fadeInUp"
+            class="col-md-4 col-sm-4 agileits footer-grid footer-grid-1 wow fadeInUp"
           >
-            <ul class="agileits w3layouts">
-              <li class="agileits w3layouts">5 Star Hotels</li>
-              <li class="agileits w3layouts">Beach Resorts</li>
-              <li class="agileits w3layouts">Beach Houses</li>
-              <li class="agileits w3layouts">Water Houses</li>
+            <ul class="agileits">
+              <li class="agileits">5 Star Hotels</li>
+              <li class="agileits">Beach Resorts</li>
+              <li class="agileits">Beach Houses</li>
+              <li class="agileits">Water Houses</li>
             </ul>
           </div>
           <div
-            class="col-md-4 col-sm-4 footer-grid agileits w3layouts footer-grid-2 wow fadeInUp"
+            class="col-md-4 col-sm-4 footer-grid agileits footer-grid-2 wow fadeInUp"
           >
-            <ul class="agileits w3layouts">
-              <li class="agileits w3layouts">
+            <ul class="agileits">
+              <li class="agileits">
                 <a href="gallery.html">Bahamas</a>
               </li>
-              <li class="agileits w3layouts">
+              <li class="agileits">
                 <a href="gallery.html">Hawaii</a>
               </li>
-              <li class="agileits w3layouts">
+              <li class="agileits">
                 <a href="gallery.html">Miami</a>
               </li>
-              <li class="agileits w3layouts">
+              <li class="agileits">
                 <a href="gallery.html">Ibiza</a>
               </li>
             </ul>
           </div>
           <div
-            class="col-md-4 col-sm-4 footer-grid agileits w3layouts footer-grid-2 wow fadeInUp"
+            class="col-md-4 col-sm-4 footer-grid agileits footer-grid-2 wow fadeInUp"
           >
-            <ul class="agileits w3layouts">
-              <li class="agileits w3layouts"><a href="index.html">Home</a></li>
-              <li class="agileits w3layouts"><a href="about.html">About</a></li>
-              <li class="agileits w3layouts">
+            <ul class="agileits">
+              <li class="agileits"><a href="index.html">Home</a></li>
+              <li class="agileits"><a href="about.html">About</a></li>
+              <li class="agileits">
                 <a href="cuisines.html">Cuisines</a>
               </li>
-              <li class="agileits w3layouts">
+              <li class="agileits">
                 <a href="gallery.html">Gallery</a>
               </li>
             </ul>
@@ -643,7 +630,7 @@
         </div>
 
         <div
-          class="col-md-6 col-sm-6 footer-grids agileits w3layouts newsletter wow fadeInUp"
+          class="col-md-6 col-sm-6 footer-grids agileits newsletter wow fadeInUp"
         >
           <h4>Stay Connected</h4>
           <p>
@@ -656,41 +643,41 @@
         </div>
 
         <div
-          class="col-md-6 col-sm-6 footer-grids agileits w3layouts social wow fadeInUp"
+          class="col-md-6 col-sm-6 footer-grids agileits social wow fadeInUp"
         >
-          <ul class="social-icons agileits w3layouts">
-            <li class="agileits w3layouts">
+          <ul class="social-icons agileits">
+            <li class="agileits">
               <a
                 href="#"
-                class="facebook agileits w3layouts"
+                class="facebook agileits"
                 title="Go to Our Facebook Page"
               ></a>
             </li>
-            <li class="agileits w3layouts">
+            <li class="agileits">
               <a
                 href="#"
-                class="twitter agileits w3layouts"
+                class="twitter agileits"
                 title="Go to Our Twitter Account"
               ></a>
             </li>
-            <li class="agileits w3layouts">
+            <li class="agileits">
               <a
                 href="#"
-                class="googleplus agileits w3layouts"
+                class="googleplus agileits"
                 title="Go to Our Google Plus Account"
               ></a>
             </li>
-            <li class="agileits w3layouts">
+            <li class="agileits">
               <a
                 href="#"
-                class="instagram agileits w3layouts"
+                class="instagram agileits"
                 title="Go to Our Instagram Account"
               ></a>
             </li>
-            <li class="agileits w3layouts">
+            <li class="agileits">
               <a
                 href="#"
-                class="youtube agileits w3layouts"
+                class="youtube agileits"
                 title="Go to Our Youtube Channel"
               ></a>
             </li>
@@ -698,12 +685,9 @@
         </div>
 
         <div
-          class="col-md-6 col-sm-6 footer-grids agileits w3layouts copyright wow fadeInUp"
+          class="col-md-6 col-sm-6 footer-grids agileits copyright wow fadeInUp"
         >
-          <p>
-            &copy; 2017 Tropical Resorts. All Rights Reserved | Design by
-            <a href="http://w3layouts.com/" target="_blank"> W3layouts </a>
-          </p>
+          <a href="http://.com/" target="_blank"> &copy; The Mordhon 2020 </a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -755,7 +739,7 @@
         $().UItoTop({ easingType: "easeOutQuart" });
       });
     </script>
-    <a href="#" id="toTop" class="agileits w3layouts" style="display: block">
+    <a href="#" id="toTop" class="agileits" style="display: block">
       <span id="toTopHover" style="opacity: 0"> </span
     ></a>
     <!-- //Slide-To-Top JavaScript -->
