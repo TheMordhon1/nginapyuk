@@ -1375,7 +1375,6 @@ h3.title {
   left: 15px;
   display: none;
   background: rgba(0, 0, 0, 0.5);
-  /*--w3layouts--*/
   /*--agileits--*/
 }
 
@@ -4016,6 +4015,11 @@ textarea {
     width: 50%;
     float: left;
     padding-right: 10px;
+  }
+
+  .details-grid-image img {
+    width: 400px;
+    height: 200px;
   }
   .details-grid-info {
     width: 50%;
